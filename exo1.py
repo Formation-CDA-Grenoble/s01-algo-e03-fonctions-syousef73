@@ -1,8 +1,8 @@
 def double(number):
     # Début de ton code
-    pass
+    double = 2*number
     # Fin de ton code
-
+    return double
 
 
 # Pas touche!
