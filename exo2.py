@@ -1,13 +1,25 @@
 def conditionalDouble(number):
+    
     # Début de ton code
-    pass
+    if  number * 0 ==0: 
+
+       if number >0:
+
+            number*=2
+
+        
+     
+    else:
+       number = "echec"
+        
+    return number       
     # Fin de ton code
 
 
 
 # Pas touche!
 tests = (
-    (2, 4),
+    ("2", 4),
     (7, 14),
     (0, 0),
     (-3, -3),
